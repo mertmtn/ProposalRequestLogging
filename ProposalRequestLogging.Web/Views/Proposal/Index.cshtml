@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="alert alert-danger" role="alert" style="display:none" id="errorMessage"></div>
+<div class="alert alert-success" role="alert" style="display:none" id="successMessage"></div>
+
+<div class="form-group">
+    <label for="productNo">Ürün No </label>
+    <input type="text" class="form-control" id="productNo">
+    <span id="productNoInvalid" style="color:red; display:none;">Ürün No Giriniz</span>
+</div>
+<div class="form-group">
+    <label for="proposalNo">Teklif No</label>
+    <input type="number" class="form-control" id="proposalNo">
+    <span id="proposalNoInvalid" style="color:red; display:none;">Teklif No Giriniz</span>
+</div>
+<div class="form-group">
+    <label for="renewalNo">Yenileme No</label>
+    <input type="number" class="form-control" id="renewalNo">
+    <span id="renewalNoInvalid" style="color:red; display:none;">Yenileme No Giriniz</span>
+</div>
+<div class="form-group">
+    <label for="endorsNo">Zeyil No</label>
+    <input type="number" class="form-control" id="endorsNo">
+    <span id="endorsNoInvalid" style="color:red; display:none;">Zeyil No Giriniz</span>
+</div>
+<button onclick="formSubmit()" class="btn btn-primary">Sorgula</button>
+ 
+<div class="row">
+    <div class="col-md-4">
+        <h2>Olumlu</h2>
+        <div id="tblOlumlu">
+
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>Bilgi</h2>
+        <div id="tblBilgi">
+
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>Olumsuz</h2>
+        <div id="tblOlumsuz">
+
+        </div>
+    </div>
+</div>
+
+
