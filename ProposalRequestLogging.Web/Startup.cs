@@ -12,16 +12,11 @@ using System.Net.Http.Headers;
 
 namespace ProposalRequestLogging.Web
 {
-    public class Startup
+    public class Startup(IConfiguration configuration)
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
+        public IConfiguration Configuration { get; } = configuration;
 
-        public IConfiguration Configuration { get; }
 
-        
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();

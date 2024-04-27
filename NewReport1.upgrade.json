@@ -1,0 +1,321 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": true
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-04-27T19:13:10.8374658Z",
+  "analysisEndTime": "2024-04-27T19:13:16.2038405Z",
+  "stats": {
+    "summary": {
+      "projects": 4,
+      "issues": 5,
+      "incidents": 16,
+      "effort": 16
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 5,
+        "Optional": 5,
+        "Potential": 6,
+        "Information": 0
+      },
+      "category": {
+        "Project": 4,
+        "NuGet": 11,
+        "Api": 1
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Business\\ProposalRequestLogging.Business.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 3,
+      "ruleInstances": [
+        {
+          "incidentId": "9de527e3-f287-4570-97b3-63122032d342",
+          "ruleId": "NuGet.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Business\\ProposalRequestLogging.Business.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.Extensions.Http, 5.0.0",
+            "snippet": "Microsoft.Extensions.Http, 5.0.0\n\nRecommendation:\n\nMicrosoft.Extensions.Http 8.0.0"
+          }
+        },
+        {
+          "incidentId": "0b3b7871-5718-44a1-831c-25571fdac807",
+          "ruleId": "NuGet.0005",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Business\\ProposalRequestLogging.Business.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.Extensions.Http, 5.0.0",
+            "snippet": "Microsoft.Extensions.Http, 5.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+          }
+        },
+        {
+          "incidentId": "81990565-a046-40f3-953d-49678da79b77",
+          "ruleId": "Project.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Business\\ProposalRequestLogging.Business.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Business\\ProposalRequestLogging.Business.csproj",
+            "snippet": "Current: net5.0\nNew: net8.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Data\\ProposalRequestLogging.Data.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 6,
+      "ruleInstances": [
+        {
+          "incidentId": "3df2dfc2-e951-4c75-9158-872e01b8c26e",
+          "ruleId": "NuGet.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Data\\ProposalRequestLogging.Data.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.Extensions.Configuration.Json, 5.0.0",
+            "snippet": "Microsoft.Extensions.Configuration.Json, 5.0.0\n\nRecommendation:\n\nMicrosoft.Extensions.Configuration.Json 8.0.0"
+          }
+        },
+        {
+          "incidentId": "96f0bcd9-46ad-4724-a21d-25d5b38d2079",
+          "ruleId": "NuGet.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Data\\ProposalRequestLogging.Data.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.Extensions.Configuration, 5.0.0",
+            "snippet": "Microsoft.Extensions.Configuration, 5.0.0\n\nRecommendation:\n\nMicrosoft.Extensions.Configuration 8.0.0"
+          }
+        },
+        {
+          "incidentId": "fae6a495-7811-4994-9321-67f31767f8cd",
+          "ruleId": "NuGet.0005",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Data\\ProposalRequestLogging.Data.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.Extensions.Configuration.Json, 5.0.0",
+            "snippet": "Microsoft.Extensions.Configuration.Json, 5.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+          }
+        },
+        {
+          "incidentId": "36ad96ac-1fe8-40a2-9592-cecd741dc719",
+          "ruleId": "NuGet.0004",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Data\\ProposalRequestLogging.Data.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "System.Data.SqlClient, 4.8.5",
+            "snippet": "System.Data.SqlClient, 4.8.5",
+            "links": [
+              {
+                "title": "https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+                "url": "https://github.com/advisories/GHSA-98g6-xh36-x2p7"
+              }
+            ]
+          }
+        },
+        {
+          "incidentId": "b523d71d-601c-45ee-ba8e-9c11f0d7f8d2",
+          "ruleId": "NuGet.0005",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Data\\ProposalRequestLogging.Data.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.Extensions.Configuration, 5.0.0",
+            "snippet": "Microsoft.Extensions.Configuration, 5.0.0\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+          }
+        },
+        {
+          "incidentId": "400dcb56-a03f-40e1-9426-20c7ed43c277",
+          "ruleId": "Project.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Data\\ProposalRequestLogging.Data.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Data\\ProposalRequestLogging.Data.csproj",
+            "snippet": "Current: net5.0\nNew: net8.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Entities\\ProposalRequestLogging.Models.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 1,
+      "ruleInstances": [
+        {
+          "incidentId": "1d781276-a493-4f94-bf9a-0ec75afa10ab",
+          "ruleId": "Project.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Entities\\ProposalRequestLogging.Models.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Entities\\ProposalRequestLogging.Models.csproj",
+            "snippet": "Current: net5.0\nNew: net8.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\ProposalRequestLogging.Web.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 6,
+      "ruleInstances": [
+        {
+          "incidentId": "cb6891da-fd5e-48f3-8154-724233fc4da6",
+          "ruleId": "NuGet.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\ProposalRequestLogging.Web.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.VisualStudio.Web.CodeGeneration.Design, 5.0.2",
+            "snippet": "Microsoft.VisualStudio.Web.CodeGeneration.Design, 5.0.2\n\nRecommendation:\n\nMicrosoft.VisualStudio.Web.CodeGeneration.Design 8.0.2"
+          }
+        },
+        {
+          "incidentId": "e011a1eb-d37b-4cd2-a030-ae4d95364896",
+          "ruleId": "NuGet.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\ProposalRequestLogging.Web.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation, 5.0.10",
+            "snippet": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation, 5.0.10\n\nRecommendation:\n\nMicrosoft.AspNetCore.Mvc.Razor.RuntimeCompilation 8.0.4"
+          }
+        },
+        {
+          "incidentId": "192bf068-89f2-469b-b611-1f40f4fb910e",
+          "ruleId": "NuGet.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\ProposalRequestLogging.Web.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "System.Security.Cryptography.ProtectedData, 7.0.1",
+            "snippet": "System.Security.Cryptography.ProtectedData, 7.0.1\n\nRecommendation:\n\nSystem.Security.Cryptography.ProtectedData 8.0.0"
+          }
+        },
+        {
+          "incidentId": "17d34f61-87ad-496b-bc86-50028f62cf88",
+          "ruleId": "NuGet.0005",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\ProposalRequestLogging.Web.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "Package",
+            "path": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation, 5.0.10",
+            "snippet": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation, 5.0.10\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+          }
+        },
+        {
+          "incidentId": "0440ca67-17aa-4160-9cc6-fef265b5d3c0",
+          "ruleId": "Project.0002",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\ProposalRequestLogging.Web.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\ProposalRequestLogging.Web.csproj",
+            "snippet": "Current: net5.0\nNew: net8.0"
+          }
+        },
+        {
+          "incidentId": "1ecc0ac4-3e25-4b6d-9db0-1db3bdad37f5",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation, 8.0.2.",
+          "projectPath": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\ProposalRequestLogging.Web.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "D:\\Github Repos\\ProposalRequestLogging\\ProposalRequestLogging.Web\\Startup.cs",
+            "snippet": "services.AddControllersWithViews().AddRazorRuntimeCompilation()\n\nAPI signature M:Microsoft.Extensions.DependencyInjection.RazorRuntimeCompilationMvcBuilderExtensions.AddRazorRuntimeCompilation(Microsoft.Extensions.DependencyInjection.IMvcBuilder)",
+            "line": 26,
+            "column": 12,
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.razorruntimecompilationmvcbuilderextensions.addrazorruntimecompilation"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to correspinding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in moderrn .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227"
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226"
+        }
+      ]
+    },
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530"
+        }
+      ]
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "description": "NuGet package is deprecated.\n\nGo to its documentation and if there is a guidance for replacement of functionality provided by this package.",
+      "label": "NuGet package is deprecated",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531"
+        }
+      ]
+    },
+    "NuGet.0004": {
+      "id": "NuGet.0004",
+      "description": "NuGet package contains secutiry vulnerabilities.\n\nPackage needs to be upgraded to a newer version that addresses known secutity vunerabilities.",
+      "label": "NuGet package contains secutiry vulnerability",
+      "severity": "Optional",
+      "effort": 1
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "description": "Some API that lived in older versions of .NET frameworks were moved to standalone NuGet packages that could be added to projects explicitly.",
+      "label": "API available in NuGet package",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679"
+        }
+      ]
+    }
+  }
+}
